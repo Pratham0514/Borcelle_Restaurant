@@ -3,100 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Borcelle Restaurant</title>
+    <link rel="icon" href="./img/icon.png"/>
     <style>
-        .img {
-            margin-top: 10px;
-            width :500px;
-            display: flex;
-            flex-direction: row;
+        
+        .contanor{
+            background: #000;
+            width: 550px;
+            text-align: center;
+            color: aqua;
+            margin: 2% 0 0% 3%;
+            
+            
+        }
+        .navbar{
+            text-decoration: none;
+            background: #000;
+            margin: -10px;
+            cursor: pointer;
+            text-align: center;
+            padding-bottom: 1%;
+        }
+        .nav{
+            text-decoration: none;
+            color: orange;
+            padding-left: 2%;
+            
+        }
+        .card{
+            
+            width: 900px;
+        
+            margin-top: 20px;
 
         }
-
-        
- /* Container to center the images */
-.container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    
-    align-items: center;
-    overflow: hidden;
-}
-
-/* Style for the images */
-.moving-img {
-    position: absolute;
-    width: 500px; /* Adjust as per your image size */
-    height: auto;
-    animation: moveLeftToRight 5s infinite linear;
-    animation-delay: 5s;
-}
-
-/* Add different timing for each image to make them move at different times */
-.moving-img:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.moving-img:nth-child(2) {
-    animation-delay: 1.5s;
-}
-
-.moving-img:nth-child(3) {
-    animation-delay: 3s;
-}
-.moving-img:nth-child(4) {
-    animation-delay: 4.5s;
-}
-.moving-img:nth-child(1) {
-    animation-delay: 6s;
-}
-
-
-/* Define the keyframe animation */
-@keyframes moveLeftToRight {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(100vw); /* Moves the image from left to right across the screen */
-    }
-}
-
-
-/* Define the keyframe animation */
-@keyframes moveImage {
-    0% {
-        transform: translate(10px, 10px);
-    }
-    25% {
-        transform: translateX( 25px,100px);
-    }
-    50% {
-        transform: translateX( 50px,100px);
-    }
-    75% {
-        transform: translateX( 75px,100px);
-    }
-    100% {
-        transform:translate(100px,100px); /* Moves the image 1px by 1px over time */
-    }
-}
-
+        .img1{
+            text-align: center;
+            width:150px;
+        }
+        .img{
+            width: 500px;
+            padding: 1%;
+            
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-    <div class="img  ">
- <img src="./img/Screenshot 2025-03-27 144709.png" class="moving-img" />
- <img src="./img/Screenshot 2025-03-27 144709.png" class="moving-img"/>
- <img src="./img/Screenshot 2025-03-27 144709.png" class="moving-img"/>
- <img src="./img/Screenshot 2025-03-27 144709.png" class="moving-img"/>
-
-</div>
- <p class="text">hellow</p>
-</div>
+    <nav class="navbar ">
+        <img src="./img/icon.png" class="img1"/><br><br><hr>
+        <a href="./page/appetizers.html" class="nav">Appetizer</a>
+        <a href="./page/beverage.html" class="nav">Beverage</a>
+        <a href="./page/main_course.html" class="nav">Main_course</a>
+        
+    </nav>
+   <div class="contanor">
+    <img src="./img/meanu.png" alt="meanu" class="img">
+   </div>
 </body>
 </html>
