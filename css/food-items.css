@@ -1,0 +1,75 @@
+.navbar1{
+    margin-top: 10%;
+
+}
+.nav1{
+    text-decoration: none;
+    color: orange;
+    padding-left: 1%;
+    width: 100%;
+    padding-bottom: 10%;
+    position: static;
+    top: 10%;
+}
+
+.navbar1{
+    text-decoration: none;
+    background: #040404;
+    margin-top: 20px  ;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+    position: static;
+    top: 10%;
+}
+.contanor2{
+    width: 98%;
+    margin: 10px;
+    background :rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    width: 300px;
+    padding: 15px;
+    background: white;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10%;
+    border: 2px solid grey;
+    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+   
+
+}
+.text2{
+    width: 240px;
+    text-align: justify;
+    
+}
+.price{
+  color: rgb(10, 199, 10);
+  margin-top: -10px;
+  font-size: 25px;
+  text-align: center;
+  height: 10px;
+    margin-top: 5px;
+
+}
+.heading{
+    color:orange;
+    margin-top: -10px;
+  font-size: 25px;
+  text-align: center;
+}
+.img3{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10%;
+}
