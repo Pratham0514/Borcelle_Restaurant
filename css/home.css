@@ -21,14 +21,14 @@
             top: 10%;
         }
         .nav:hover{
-            color: chartreuse;
+            color: #fefefe;
         }
         .img1{
             text-align: center;
             width:150px;
         }
         .contanor1{
-            background: #000000;
+            background: #f0f0f0;
             display: flex;
             display: inline-block;
             margin-top: 1% ;
@@ -44,7 +44,7 @@
         }
         .text{
             text-align: justify;
-            color:#e2ff06;
+           
             height: 80%;
             display: inline-block;
             padding-right: 3%;

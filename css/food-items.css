@@ -11,6 +11,9 @@
     position: static;
     top: 10%;
 }
+.nav1:hover{
+    color: #fefefe;
+}
 
 .navbar1{
     text-decoration: none;
@@ -72,4 +75,11 @@
     width: 250px;
     padding: 10px;
     border-radius: 10%;
+}
+.img4{
+    height: 250px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: justify;
 }
